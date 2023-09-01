@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinTCPServer", "WinTCPServer\WinTCPServer.csproj", "{6166618F-E4BB-466F-8D73-0E92D24D9251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6166618F-E4BB-466F-8D73-0E92D24D9251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6166618F-E4BB-466F-8D73-0E92D24D9251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6166618F-E4BB-466F-8D73-0E92D24D9251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6166618F-E4BB-466F-8D73-0E92D24D9251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66C5C361-F8A7-4C42-9EAE-AF5A237F84D2}
+	EndGlobalSection
+EndGlobal

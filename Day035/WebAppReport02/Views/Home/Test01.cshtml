@@ -1,0 +1,36 @@
+﻿@model Diary
+
+@{
+    ViewData["Title"] = "Test01";
+}
+
+<h1>Test01</h1>
+
+@*<form method="post" action="/Home/DeleteSelected">
+    <button type="button" class="btn btn-outline-primary" onclick="location.href='/Home/Create'">삽입</button>
+    <button type="button" class="btn btn-outline-primary" onclick="location.href='/'">목록</button>
+    <button type="submit" class="btn btn-outline-danger">삭제</button>
+    <button type="button" class="btn btn-outline-primary" onclick="location.href='/Home/Update'">수정</button>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th> <!-- 체크박스 컬럼 추가 -->
+                <th>No</th>
+                <th>날짜</th>
+                <th>제목</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</form>*@
+
+
+<div>
+    <form method="post" action="/">
+        번호 : <input asp-for="No" value="1" /> <br />
+        제목 : <input asp-for="Title" value="오늘" /> <br /> <br />
+        <input type="Submit" value="Submit" class="btn btn-outline-primary"/>
+    </form>
+</div>

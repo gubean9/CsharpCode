@@ -1,0 +1,17 @@
+﻿@model Diary
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>일기</h1>
+<br />
+
+<div>
+    <form method="post" action="/">
+        번호 : <input asp-for="No" class="form-control" value="1"/> <br />
+        제목 : <input asp-for="Title" class="form-control" value="일기 제목" /> <br />
+        내용 : <input asp-for="Content" class="form-control" value="일기 내용" /> <br />
+        <input type="Submit" value="추가" class="btn btn-outline-primary"/>
+    </form>
+</div>

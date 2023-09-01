@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleApp_Insert02", "OracleApp_Insert02\OracleApp_Insert02.csproj", "{05FFD58F-E897-42E9-BFD4-1B601D3912E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05FFD58F-E897-42E9-BFD4-1B601D3912E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FFD58F-E897-42E9-BFD4-1B601D3912E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FFD58F-E897-42E9-BFD4-1B601D3912E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FFD58F-E897-42E9-BFD4-1B601D3912E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8726500-DBF3-4AF6-827A-C81D77FB5190}
+	EndGlobalSection
+EndGlobal

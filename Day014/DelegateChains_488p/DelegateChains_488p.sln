@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChains_488p", "DelegateChains_488p\DelegateChains_488p.csproj", "{E64A9F8F-10D2-49E4-B3A2-C7BC370787E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E64A9F8F-10D2-49E4-B3A2-C7BC370787E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64A9F8F-10D2-49E4-B3A2-C7BC370787E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64A9F8F-10D2-49E4-B3A2-C7BC370787E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64A9F8F-10D2-49E4-B3A2-C7BC370787E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32A436BD-113C-48B6-9CA3-64E60511B7E5}
+	EndGlobalSection
+EndGlobal

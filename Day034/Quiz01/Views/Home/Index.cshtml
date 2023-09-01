@@ -1,0 +1,44 @@
+﻿@model Quiz01.Models.Student
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="constainer">
+    <div class="col-sm-4">
+        <form>
+            <label asp-for="Name">이름 : </label>
+            <input asp-for="Name"
+                placeholder="이름을 입력하세요"
+                class="form-control"/>
+            <br />
+
+            <label asp-for="Age">나이 : </label>
+            <input asp-for="Age"
+                placeholder="나이를 입력하세요"
+                class="form-control"/>
+            <br />
+
+            <label asp-for="HP">전화번호 : </label>
+            <input asp-for="HP"
+                placeholder="전화번호를 입력하세요"
+                class="form-control"/>
+            <br />
+
+            <label asp-for="Gender">성별 : </label>
+            <select asp-for="Gender"
+                asp-items="Html.GetEnumSelectList<Gender>()"
+                class="form-control">
+                <option value="">성별을 선택하세요</option>
+            </select>
+            <br />
+
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<form method="post" asp-controller="Home" asp-action="Result">
+    <label>숫자를 입력하세요 : </label>
+    <input type="text" name="Count" class="form-control" /> <br />
+    <input type="Submit" value="확인" class="btn btn-outline-primary" />
+</form>
